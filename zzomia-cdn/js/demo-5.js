@@ -1088,9 +1088,4 @@ function ecCheckCookie() {
     $('.ec-closed').click(function(){
         $('.mobile-menu').removeClass('ec-open');
     })
-
 })(jQuery);
-
-
-
-
