@@ -599,15 +599,13 @@ function ecCheckCookie() {
         arrows: true,
         infinite: true,
         speed: 500,
-        // slidesToShow: 3,
         slidesToScroll: 1,
         adaptiveHeight: true,
         autoplay:true,
-        //  fade: true,
         cssEase: 'linear',
         responsive: [
         {
-            breakpoint: 3000,
+            breakpoint: 1500,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1
@@ -1090,7 +1088,7 @@ function ecCheckCookie() {
     $('.ec-closed').click(function(){
         $('.mobile-menu').removeClass('ec-open');
     })
-    
+
 })(jQuery);
 
 
