@@ -117,8 +117,8 @@ function ecCheckCookie() {
     $('body').css({
         'overflow':"visible"
     })
-    $(window).load(function () {
-    });
+    // $(window).load(function () {
+    // });
 
     /*----------------------------- Bootstrap dropdown   --------------------*/
     $('.dropdown').on('show.bs.dropdown', function () {
@@ -604,6 +604,13 @@ function ecCheckCookie() {
         autoplay:true,
         cssEase: 'linear',
         responsive: [
+        {
+            breakpoint: 3000,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
         {
             breakpoint: 1500,
             settings: {
