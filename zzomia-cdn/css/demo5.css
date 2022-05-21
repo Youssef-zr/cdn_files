@@ -17125,11 +17125,11 @@ body.ec-open:before {
   color: #777;
 }
 .ec-side-cart .ec-menu-inner .ec-menu-content ul li:hover {
-  background: #0d4fcf !important;
+  background: #0d4fcf !important
 }
 .ec-side-cart .ec-menu-inner .ec-menu-content ul li:hover > a {
   color: #0d4fcf;
-  display: inline-block;
+  display: inline-block
 }
 .ec-side-cart .ec-menu-inner .ec-menu-content ul li:hover > span.menu-toggle:before {
   color: #0d4fcf;
