@@ -17112,9 +17112,9 @@ body.ec-open:before {
   text-transform: capitalize;
   padding-left: 15px;
   padding-right: 0px;
-  display: block;
+  display: inline-block;
   border-bottom: 1px solid #dddddd;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   color: #777;
 }
@@ -21744,7 +21744,7 @@ section.ec-instagram-section {
   }
 
   .col.header-top-center {
-    display: none;
+    display: block !important;
   }
 
   .ec-header-user .dropdown-toggle {
@@ -21851,7 +21851,7 @@ section.ec-instagram-section {
   }
 
   .ec-side-cart .ec-menu-inner .ec-menu-content ul li .sub-menu li a {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   #ec-main-menu-desk .container > .row {
@@ -22088,6 +22088,7 @@ section.ec-instagram-section {
   .ec-brand-outer .slick-arrow.slick-next, .ec-brand-outer .slick-arrow.slick-prev {
     display: none !important;
   }
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pt-91px {
