@@ -17124,6 +17124,9 @@ body.ec-open:before {
   font-size: 12px;
   color: #777;
 }
+.ec-side-cart .ec-menu-inner .ec-menu-content ul li:hover {
+  background: #0d4fcf;
+}
 .ec-side-cart .ec-menu-inner .ec-menu-content ul li:hover > a {
   color: #0d4fcf;
 }
@@ -21743,6 +21746,10 @@ section.ec-instagram-section {
     display: none;
   }
 
+  .col.header-top-center {
+    display: block !important;
+  }
+
   .ec-header-user .dropdown-toggle {
     padding: 0 10px;
   }
@@ -22664,6 +22671,7 @@ section.ec-instagram-section {
   .ec-side-cart .ec-menu-inner .ec-menu-content ul li .sub-menu li a {
     font-size: 13px;
   }
+
   .ec-side-cart .ec-menu-title .menu_title {
     font-size: 16px;
   }
